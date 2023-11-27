@@ -9,20 +9,29 @@
     scroll-padding-top: 2rem;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
+}
+
+:root{
+    --main-color: #4682B4;
+    --text-color: #1C1C1C;
+    --bg-color: #B0C4DE;
 }
 
 body{
     height: 100vh;
-    background: #47b8ff;
+    background: var(--bg-color);
     
 }
 
-ul {
-    padding: 10rem;
-    height: 90vh;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-columns: 1fr 1fr;
+.itens{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.img-product{
+    width: 250px;
 }

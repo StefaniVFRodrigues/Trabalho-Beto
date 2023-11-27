@@ -2,24 +2,29 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/styles.css">
     <title>Simple Shopping Cart</title>
   </head>
   <body>
     <h1>Simple Shopping Cart</h1>
+    <div></div>
 
-    <div id="items">
-      <div>
-        <span>Item A - $15</span>
-        <button onclick="addToCart('Item A', 15)">Add to Cart</button>
+    <div class="itens">
+      <div class="product">
+        <img class="img-product" src="img/nike.jpg"> <br>
+        <span>Tênis Nike - $100</span>
+        <button class="btn" onclick="addToCart('Tenis Nike', 100)">Add to Cart</button>
       </div>
-      <div>
-        <span>Item B - $25</span>
-        <button onclick="addToCart('Item B', 25)">Add to Cart</button>
+      <div class="product">
+        <img class="img-product" src="img/adidas.jpg"> <br>
+        <span>Tênis Adidas - $110</span>
+        <button class="btn" onclick="addToCart('Tenis Adidas', 110)">Add to Cart</button>
       </div>
-      <div>
-        <span>Item C - $30</span>
-        <button onclick="addToCart('Item C', 30)">Add to Cart</button>
+      <div class="product">
+        <img class="img-product" src="img/allstar.jpg"> <br>
+        <span>Tênis All Star - $90</span>
+        <button class="btn" onclick="addToCart('Tenis All Star', 90)">Add to Cart</button>
       </div>
     </div>
 
