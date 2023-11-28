@@ -74,3 +74,24 @@ body{
     cursor: pointer;
 }
 
+.btn-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background: var(--main-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+p{
+    align-items: center;
+}
+
+.title{
+    align-items: flex-end;
+    font-weight: 700;
+    font-size: 1rem;
+}
