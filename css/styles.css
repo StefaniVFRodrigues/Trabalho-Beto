@@ -55,6 +55,7 @@ body{
     /* margin: 1.5rem auto 0 auto; */
     padding: 12px 20px;
     border: none;
+    border-radius: 1rem;
     background: var(--main-color);
     color: white;
     font-size: 1rem;
@@ -64,6 +65,7 @@ body{
 
 .btn:hover{
     display: flex;
+    transition: .5s;
     /* margin: 1.5rem auto 0 auto; */
     padding: 12px 20px;
     border: none;
@@ -103,4 +105,21 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
